@@ -1,0 +1,24 @@
+section {
+    padding-top: 15vh;
+}
+
+.project {
+    height: 30vh;
+    width: 7vw;
+    background-color: lightgray;
+    margin: 20px;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+.absolute {
+    background-color: gray;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}

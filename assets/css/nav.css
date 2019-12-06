@@ -1,0 +1,50 @@
+
+a {
+    border: #2962ff solid 3px;
+    color: #2962ff
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.lmLogo {
+    border: none;
+    margin: 10px;
+}
+
+img {
+    height: 35px;
+}
+
+span {
+    float: right;
+}
+
+a.portfolio {
+    border: none;
+    color: #3b414c;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+a.portfolio:hover {
+    color: #2962ff;
+    cursor: pointer;
+}
+
+a.hello {
+    color: #2962ff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+a.hello:hover {
+    background-color: #2962ff;
+    color: white;
+    cursor: pointer;
+}
