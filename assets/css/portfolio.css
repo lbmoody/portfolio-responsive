@@ -2,8 +2,17 @@ section {
     padding-top: 5vh;
 }
 
+h5 {
+    font-family: 'Archivo', sans-serif;
+    color: #3b414c;
+}
+
 p {
-    text-align: center;
-    padding: 20px;
     font-family: 'Open Sans', sans-serif;
+    color: #3b414c;
+}
+
+.projectButton {
+    background-color: #2962ff;
+    color: white;
 }
