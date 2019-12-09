@@ -4,10 +4,9 @@
 
 .welcome {
     text-align: center;
-    /* height: 60vh; */
-    padding: 25vh 0 30vh 0;
-    vertical-align: middle;
-    overflow-y: auto;
+    height: 100%;
+    padding: 23vh 0 30vh 0;
+    /* vertical-align: middle; */
     
 }
 
@@ -26,8 +25,8 @@ h2 {
 
 .aboutMe {
     background-image: linear-gradient(to top, #1f4cc6 0%, #2962ff 100%);
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
 }
 
@@ -35,7 +34,7 @@ h3 {
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
     color: white;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 50px 0;
     text-align: center;
 
 
