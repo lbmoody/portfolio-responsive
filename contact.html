@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Logan Moody | Say Hello</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Archivo:400,600|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/global.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/nav.css">
@@ -11,37 +14,43 @@
 </head>
 
 <body>
+    <nav class="navbar" style="border-bottom: solid 1px #e0e0e0">
+        <div class="container">
+            <a class="navbar-brand lmLogo" href="./index.html"><img src="assets/images/lmLogo.png" alt="LM logo" /></a>
+            <div class="d-flex justify-content-end">
+                <a class="nav-item portfolio" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item hello" href="./contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <nav class="clearfix">
-            <a class="lmLogo" href="./index.html"><img src="assets/images/lmLogo.png" alt="LM logo"/></a>
-            <span>
-                <a class="portfolio" href="./portfolio.html">Portfolio</a>
-                <a class="hello" href="./contact.html">Contact</a>
-            </span>
-        </nav>
         <section class="contactAsk">
             <h2>
                 Thanks for reaching out. <br>
                 Let me know how I can help.
             </h2>
         </section>
-        <section>
+        <section class="pt-2">
             <form action="mailto:lbmoody3@me.com" method="post" enctype="text/plain">
                 <div class="emailForm">
-                    <div class="name">
-                        <label>Name</label><br>
-                        <input type="text" name="name"><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Name</label><br>
+                            <input type="text" name="name"><br>
+                        </div>
+                        <div class="col-md-6 ml-auto">
+                            <label>E-mail</label><br>
+                            <input type="text" name="mail"><br>
+                        </div>
                     </div>
-                    <div class="email">
-                        <label>E-mail</label><br>
-                        <input type="text" name="mail"><br>
-                    </div>
-                    <div class="message">
-                        <label>Message</label><br>
-                        <textarea type="text" name="message" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-md">
+                            <label>Message</label><br>
+                            <textarea class="w-100" type="text" name="message" rows="5"></textarea><br>
+                        </div>
                     </div>
                 </div>
-                <div class="submitButton">
+                <div class="d-flex justify-content-center">
                     <input class="submit" type="submit" value="Submit">
                 </div>
             </form>

@@ -1,7 +1,11 @@
+nav {
+    position: fixed;
+    top: 0;
+}
 
 a {
     border: #2962ff solid 3px;
-    color: #2962ff
+    color: #2962ff;
     background-color: transparent;
     border-radius: 5px;
     padding: 10px 15px;
@@ -12,7 +16,7 @@ a {
 
 .lmLogo {
     border: none;
-    margin: 10px;
+    margin:10px 0;
 }
 
 img {
