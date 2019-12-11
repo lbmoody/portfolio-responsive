@@ -1,13 +1,7 @@
-/* section {
-    width: 100%;
-} */
-
 .welcome {
     text-align: center;
     height: 100%;
-    padding: 23vh 0 30vh 0;
-    /* vertical-align: middle; */
-    
+    padding: 23vh 0 30vh 0;   
 }
 
 h1 {
@@ -25,8 +19,6 @@ h2 {
 
 .aboutMe {
     background-image: linear-gradient(to top, #1f4cc6 0%, #2962ff 100%);
-    /* position: fixed;
-    bottom: 0; */
     width: 100%;
 }
 
