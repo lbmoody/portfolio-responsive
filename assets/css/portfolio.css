@@ -15,4 +15,10 @@ p {
 .projectButton {
     background-color: #2962ff;
     color: white;
+    width: 100%;
+}
+
+.card-img-top {
+    height: 175px;
+    padding: 20px;
 }
