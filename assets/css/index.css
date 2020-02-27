@@ -26,10 +26,8 @@ h3 {
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
     color: white;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 25px 0;
     text-align: center;
-
-
 }
 
 p {
@@ -38,6 +36,23 @@ p {
     font-family: 'Open Sans', sans-serif;
     width: 45vw;
     margin: 0 auto;
+}
+
+.resumeLinks {
+    border: white solid 3px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin: 0 10px;
+}
+
+.resumeLinks:hover {
+    background-color: white;
+    color: #2962ff;
+    cursor: pointer;;
 }
 
 
